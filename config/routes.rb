@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
+  get 'static_pages/home'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
+get 'pages/home' => 'high_voltage/pages#show', id: 'home'
+get 'pages/about' => 'high_voltage/pages#show', id: 'about'
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
