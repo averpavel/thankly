@@ -1,10 +1,22 @@
 <header>
+  <div class="row">
+    <div class="col-md-10">
   <h1>Thankly</h1>
-  <%= link_to 'Home', page_path('home') %>
+</div>
+<div class="col-md-1">
+  <h3>
+    <%= link_to 'Home', page_path('home') %>
+  </h3>
+</div>
+<div class="col-md-1">
+  <h3>
   <%= link_to 'About', page_path('about') %>
+</h3>
+  <div>
+</div>
 </header>
 
-<body>
+
   <h1>Thankly - the best way to send appreciations</h1>
 
   <div>
@@ -13,6 +25,8 @@
       <li>send/get a thank you message</li>
       <li>give/get a props</li>
       <li>see to whom are thankfull your friends</li>
-      <%= link_to 'Sign UP', page_path('sign-up') %>
+      <button class="btn btn-info">
+        <%= link_to 'Sign UP', page_path('sign-up') %>
+      </button>
     </p>
   </div>
