@@ -1,14 +1,15 @@
-<div class="jumbotron">
-<h1>Thankly - the best way to send appreciations</h1>
+<%= content_for :page_title, 'Welcome thankly home' %>
+<div class="center jumbotron">
+<h1>Thankly - the best way to send your appreciations</h1>
 
   <div>
-    <p>
-      Welcome to Thankly! Here you can:
-      <ul>
-      <li>send/get a thank you message</li>
-      <li>give/get a props</li>
-      <li>see to whom are thankfull your friends</li>
-    </ul>
+    <div>
+      <p>Welcome to Thankly!<p>
+        <p>Here you can:</p>
+        <p><small>send/get a thank you message<small></p>
+        <p><small>give/get a props<small></p>
+        <p><small>see to whom are thankfull your friends<small></p>
+    </div>
       <button class="btn btn-info">
         <%= link_to 'Sign UP', page_path('sign-up') %>
       </button>
