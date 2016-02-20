@@ -12,6 +12,7 @@ gem 'sdoc',         '0.4.0', group: :doc
 gem 'high_voltage', '~> 2.4.0'
 
 group :development, :test do
+  gem 'rspec-rails', '~> 3.0'
   gem 'sqlite3',     '1.3.9'
   gem 'byebug',      '3.4.0'
   gem 'web-console', '2.0.0.beta3'
