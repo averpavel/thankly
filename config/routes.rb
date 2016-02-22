@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 get 'pages/home' => 'high_voltage/pages#show', id: 'home'
 get 'pages/about' => 'high_voltage/pages#show', id: 'about'
-
+resources :users
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
